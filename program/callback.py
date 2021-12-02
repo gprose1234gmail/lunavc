@@ -19,12 +19,14 @@ async def cbstart(_, query: CallbackQuery):
         
         reply_markup=InlineKeyboardMarkup(
             [
-               InlineKeyboardButton(
+                [
+                    InlineKeyboardButton(
                         "",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
+                ],
                 
-            ],
+            ]
         ),
         disable_web_page_preview=True,
     )
