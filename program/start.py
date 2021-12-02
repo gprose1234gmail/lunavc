@@ -55,7 +55,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         
         reply_markup=InlineKeyboardMarkup(
-           i
+           
         ),
         disable_web_page_preview=True,
     )
